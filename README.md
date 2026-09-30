@@ -10,7 +10,44 @@
 ![OBS](https://img.shields.io/badge/OBS%20Studio-compatible-302E31?style=for-the-badge&logo=obsstudio&logoColor=white)
 ![Prix](https://img.shields.io/badge/prix-gratuit-ffcc00?style=for-the-badge)
 
+</div>
+
+> [!TIP]
+> ### ✨ Envie de personnalisation ?
+> **Une version Premium est disponible !** Déplace chaque élément à la souris, change les couleurs, mets un fond transparent, le tout avec une **prévisualisation en direct**.
+>
+> 💚 **Abonnement mensuel** ou **licence à vie** via Lemon Squeezy.
+>
+> 👉 [**Découvrir la version Premium**](LIEN_PREMIUM) &nbsp;•&nbsp; *comparatif détaillé juste en dessous ⬇️*
+
+<div align="center">
+
 <img src="screenshots/Running_in_OBS.png" alt="Le widget dans OBS Studio" width="700">
+
+</div>
+
+---
+
+## ⚖️ Free vs Premium
+
+| | 🆓 **Free** | ⭐ **Premium** |
+|---|:---:|:---:|
+| Widget prêt à l'emploi (pochette, titre, artiste, timer, barre de progression) | ✅ | ✅ |
+| Mise à jour automatique à chaque changement de musique | ✅ | ✅ |
+| Compatible OBS Studio | ✅ | ✅ |
+| Zone de notification (réduire le logiciel) | ✅ | ✅ |
+| 🎨 **Éditeur visuel** avec prévisualisation en direct | ❌ | ✅ |
+| 🖱️ **Déplacer chaque élément à la souris** où tu veux | ❌ | ✅ |
+| 🌈 **Couleurs personnalisables** (textes, éléments…) | ❌ | ✅ |
+| 🪟 **Fond personnalisable ou transparent** | ❌ | ✅ |
+| 📊 **Barre de temps personnalisable** (couleurs, style…) | ❌ | ✅ |
+| 💰 **Prix** | **Gratuit** | **3,99 €/mois** ou **14,99 € à vie** |
+
+<div align="center">
+
+### 👉 [**Passer à Premium**](LIEN_PREMIUM)
+
+*Le Free reste gratuit, sans limite de durée et utilisable même sur une chaîne monétisée.*
 
 </div>
 
