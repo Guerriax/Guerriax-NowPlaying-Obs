@@ -14,6 +14,10 @@
 <img src="screenshots/widget.png" alt="Aperçu du widget" width="500">
 -->
 
+<!-- 📸 AJOUTE ICI UNE CAPTURE D'ÉCRAN DU WIDGET :
+<img src="screenshots/widget.png" alt="Aperçu du widget" width="500">
+-->
+
 </div>
 
 ---
@@ -41,6 +45,8 @@ Quand tu changes de musique, le widget se met à jour **tout seul**. Tu n'as rie
 2. Télécharge le fichier **`Guerriax NowPlaying Obs.exe`**.
 3. **Place-le dans son propre dossier** (par exemple `C:\Stream\NowPlaying\`).
    > ⚠️ Important : le logiciel crée ses fichiers à côté du `.exe`, un dossier dédié évite de tout mélanger.
+   > Pendant qu'il tourne, le logiciel crée à côté du `.exe` quelques petits fichiers (`index.html`, des `.txt` et un dossier `images`). Ils servent à alimenter le widget.
+   > **À la fermeture du logiciel, tout est supprimé automatiquement.** Ton dossier reste propre.
 4. Double-clique sur le `.exe` pour le lancer.
 
 **Aucune installation requise.** Pas de Python, pas de dépendances : tout est dans le `.exe`.
@@ -141,22 +147,6 @@ Pas de souci : le texte se **réduit automatiquement** pour toujours rentrer dan
 
 ---
 
-## 🛠️ Pour les curieux : lancer depuis le code source
-
-Tu n'as **pas besoin** de cette partie pour utiliser le logiciel.
-
-```bash
-pip install customtkinter pillow pystray winsdk
-python app.py
-```
-
-Pour recréer le `.exe` :
-
-```bash
-pip install pyinstaller
-pyinstaller --noconfirm --onefile --windowed --icon=icon.ico --name="Guerriax NowPlaying Obs" --collect-all customtkinter app.py
-```
-
 **Technologies :** Python · CustomTkinter · Windows Media Control (winsdk) · pystray · HTML/CSS/JS
 
 ---
@@ -165,7 +155,7 @@ pyinstaller --noconfirm --onefile --windowed --icon=icon.ico --name="Guerriax No
 
 **Version 1 (Free)** : la version gratuite, avec tout le nécessaire pour afficher ta musique sur OBS.
 
-Une idée, un bug, une suggestion ? Ouvre une [**Issue**](../../issues) sur ce dépôt, je la lirai avec plaisir.
+Une idée, un bug, une suggestion ou envie de voir une application en particulier devenir compatible ? Ouvre une [**Issue**](../../issues) sur ce dépôt, je la lirai avec plaisir.
 
 ---
 
