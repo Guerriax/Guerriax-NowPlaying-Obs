@@ -12,6 +12,12 @@
 
 </div>
 
+<div align="center">
+
+<img src="screenshots/Running_in_OBS.png" alt="Le widget dans OBS Studio" width="700">
+
+</div>
+
 > [!TIP]
 > ### ✨ Envie de personnalisation ?
 > **Une version Premium est disponible !** Déplace chaque élément à la souris, change les couleurs, mets un fond transparent, le tout avec une **prévisualisation en direct**.
@@ -19,12 +25,6 @@
 > 💚 **Abonnement mensuel** ou **licence à vie** via Lemon Squeezy.
 >
 > 👉 [**Découvrir la version Premium**](LIEN_PREMIUM) &nbsp;•&nbsp; *comparatif détaillé juste en dessous ⬇️*
-
-<div align="center">
-
-<img src="screenshots/Running_in_OBS.png" alt="Le widget dans OBS Studio" width="700">
-
-</div>
 
 ---
 
