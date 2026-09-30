@@ -10,13 +10,7 @@
 ![OBS](https://img.shields.io/badge/OBS%20Studio-compatible-302E31?style=for-the-badge&logo=obsstudio&logoColor=white)
 ![Prix](https://img.shields.io/badge/prix-gratuit-ffcc00?style=for-the-badge)
 
-<!-- 📸 AJOUTE ICI UNE CAPTURE D'ÉCRAN DU WIDGET :
-<img src="screenshots/widget.png" alt="Aperçu du widget" width="500">
--->
-
-<!-- 📸 AJOUTE ICI UNE CAPTURE D'ÉCRAN DU WIDGET :
-<img src="screenshots/widget.png" alt="Aperçu du widget" width="500">
--->
+<img src="screenshots/Running_in_OBS.png" alt="Le widget dans OBS Studio" width="700">
 
 </div>
 
@@ -41,21 +35,38 @@ Quand tu changes de musique, le widget se met à jour **tout seul**. Tu n'as rie
 
 ## 📥 Installation
 
-1. Va dans l'onglet [**Releases**](../../releases) de ce dépôt.
+1. Va dans l'onglet [**Releases**](https://github.com/Guerriax/Guerriax-NowPlaying-Obs/releases) de ce dépôt.
 2. Télécharge le fichier **`Guerriax NowPlaying Obs.exe`**.
 3. **Place-le dans son propre dossier** (par exemple `C:\Stream\NowPlaying\`).
    > ⚠️ Important : le logiciel crée ses fichiers à côté du `.exe`, un dossier dédié évite de tout mélanger.
-   > Pendant qu'il tourne, le logiciel crée à côté du `.exe` quelques petits fichiers (`index.html`, des `.txt` et un dossier `images`). Ils servent à alimenter le widget.
-   > **À la fermeture du logiciel, tout est supprimé automatiquement.** Ton dossier reste propre.
 4. Double-clique sur le `.exe` pour le lancer.
 
 **Aucune installation requise.** Pas de Python, pas de dépendances : tout est dans le `.exe`.
+
+<div align="center">
+<img src="screenshots/Widget_Window.png" alt="Fenêtre du logiciel" width="450">
+<br><i>La fenêtre du logiciel : tu y vois en direct la musique détectée.</i>
+</div>
 
 ### 🛡️ Windows affiche un avertissement ?
 
 C'est normal pour les petits logiciels indépendants qui ne sont pas signés.
 Clique sur **« Informations complémentaires »** puis **« Exécuter quand même »**.
-Certains antivirus peuvent aussi être trop prudents avec ce type de programme : le code source est entièrement disponible dans ce dépôt, tu peux le vérifier.
+
+---
+
+## 🔒 Est-ce que c'est sûr ?
+
+Oui, et tu peux le vérifier toi-même. Le fichier a été analysé par **VirusTotal**, qui le passe au crible avec des dizaines d'antivirus.
+
+<div align="center">
+<img src="screenshots/VirusTotal.png" alt="Résultat de l'analyse VirusTotal" width="700">
+<br>
+
+👉 [**Voir le rapport VirusTotal complet**](LIEN_VIRUSTOTAL)
+</div>
+
+> ℹ️ Il arrive qu'un antivirus signale à tort ce type de logiciel (on appelle ça un *faux positif*), c'est courant avec les programmes créés avec PyInstaller. Le logiciel ne se connecte à aucun serveur : il lit simplement l'information de lecture de ton PC et écrit quelques petits fichiers à côté de lui.
 
 ---
 
@@ -63,7 +74,7 @@ Certains antivirus peuvent aussi être trop prudents avec ce type de programme :
 
 1. **Lance d'abord** Guerriax NowPlaying Obs (le fichier `index.html` est créé au démarrage).
 2. Dans OBS, dans la zone **Sources**, clique sur **➕** puis choisis **Navigateur** (*Browser*).
-3. Donne-lui un nom, par exemple `Now Playing`, puis valide.
+3. Donne-lui un nom, par exemple `NowPlayingWidget`, puis valide.
 4. Coche la case **« Fichier local »**.
 5. Clique sur **Parcourir** et sélectionne le fichier **`index.html`** qui se trouve **à côté du `.exe`**.
    > 💡 Astuce : dans le logiciel, le bouton **« Ouvrir le dossier (index.html) »** t'y amène directement.
@@ -90,6 +101,8 @@ Dans cette version, ces applications sont **ignorées** :
 
 Si l'une d'elles est la source média active de Windows, le widget affichera « N/A ».
 
+> 💬 Tu aimerais qu'une application en particulier soit compatible ? Dis-le moi dans une [Issue](https://github.com/Guerriax/Guerriax-NowPlaying-Obs/issues) !
+
 ---
 
 ## 🖥️ Utiliser le logiciel
@@ -103,7 +116,13 @@ Si l'une d'elles est la source média active de Windows, le widget affichera « 
 
 > ⚠️ **Le logiciel doit rester ouvert pendant ton stream.** Si tu le fermes, le widget n'est plus mis à jour (utilise **Réduire** pour le garder en arrière-plan).
 
-Pour rouvrir la fenêtre après l'avoir réduite : clic droit sur l'icône dans la zone de notification → **Afficher**.
+### 📌 Retrouver le logiciel après l'avoir réduit
+
+Une fois réduit, le logiciel se cache près de l'horloge Windows. Clique sur la petite flèche **˄** pour afficher les icônes cachées : tu y verras l'icône du logiciel (la petite note de musique). Clique dessus, ou fais un clic droit → **Afficher**, pour rouvrir la fenêtre. Tu peux aussi faire clic droit → **Quitter** pour l'arrêter.
+
+<div align="center">
+<img src="screenshots/Running_in_Tray.png" alt="Le logiciel dans la zone de notification" width="260">
+</div>
 
 ---
 
@@ -122,7 +141,7 @@ Pendant qu'il tourne, le logiciel crée à côté du `.exe` quelques petits fich
 
 - Vérifie qu'une musique est **en cours de lecture**.
 - Vérifie que l'application n'est pas dans la liste des applications ignorées (voir plus haut).
-- Appuie sur une touche **média** de ton clavier ou ouvre le panneau de volume Windows : si ta musique n'y apparaît pas, le logiciel ne pourra pas la voir non plus.
+- Ouvre le panneau de volume Windows ou appuie sur une touche **média** de ton clavier : si ta musique n'y apparaît pas, le logiciel ne pourra pas la voir non plus.
 </details>
 
 <details>
@@ -130,7 +149,7 @@ Pendant qu'il tourne, le logiciel crée à côté du `.exe` quelques petits fich
 
 - Vérifie que **le logiciel est bien lancé**.
 - Dans les propriétés de la source Navigateur, clique sur **« Actualiser le cache de la page actuelle »**.
-- Si tu as déplacé le `.exe` depuis l'ajout dans OBS, reselectionne le nouveau `index.html`.
+- Si tu as déplacé le `.exe` depuis l'ajout dans OBS, resélectionne le nouveau `index.html`.
 </details>
 
 <details>
@@ -147,15 +166,17 @@ Pas de souci : le texte se **réduit automatiquement** pour toujours rentrer dan
 
 ---
 
-**Technologies :** Python · CustomTkinter · Windows Media Control (winsdk) · pystray · HTML/CSS/JS
-
----
-
 ## 🗺️ À propos de cette version
 
 **Version 1 (Free)** : la version gratuite, avec tout le nécessaire pour afficher ta musique sur OBS.
 
-Une idée, un bug, une suggestion ou envie de voir une application en particulier devenir compatible ? Ouvre une [**Issue**](../../issues) sur ce dépôt, je la lirai avec plaisir.
+Une idée, un bug, une suggestion ou envie de voir une application en particulier devenir compatible ? Ouvre une [Issue](https://github.com/Guerriax/Guerriax-NowPlaying-Obs/issues) sur ce dépôt, je la lirai avec plaisir.
+
+---
+
+## 📜 Licence
+
+Logiciel **gratuit**, mais **non open source**. Tu peux l'utiliser librement (même sur une chaîne monétisée) et le partager gratuitement tel quel. Il est interdit de le modifier, de le vendre ou de le faire passer pour le tien. Détails dans le fichier [LICENSE](LICENSE).
 
 ---
 
