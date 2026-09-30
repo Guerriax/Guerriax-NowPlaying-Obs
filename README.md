@@ -63,7 +63,7 @@ Oui, et tu peux le vérifier toi-même. Le fichier a été analysé par **VirusT
 <img src="screenshots/VirusTotal.png" alt="Résultat de l'analyse VirusTotal" width="700">
 <br>
 
-👉 [**Voir le rapport VirusTotal complet**]([LIEN_VIRUSTOTAL](https://www.virustotal.com/gui/file/d1576a04c32696a846930746b3c309f7b160ed0d84ff9ce1ee66feeb8707980e/detection))
+👉 [**Voir le rapport VirusTotal complet**](https://www.virustotal.com/gui/file/d1576a04c32696a846930746b3c309f7b160ed0d84ff9ce1ee66feeb8707980e/detection)
 </div>
 
 > ℹ️ Il arrive qu'un antivirus signale à tort ce type de logiciel (on appelle ça un *faux positif*), c'est courant avec les programmes créés avec PyInstaller. Le logiciel ne se connecte à aucun serveur : il lit simplement l'information de lecture de ton PC et écrit quelques petits fichiers à côté de lui.
