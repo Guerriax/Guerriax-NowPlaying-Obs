@@ -16,6 +16,8 @@
 
 <img src="screenshots/Running_in_OBS.png" alt="Le widget dans OBS Studio" width="700">
 
+<img src="screenshots/html.png" alt="Le widget sans lecteur" width="700">
+
 </div>
 
 > [!TIP]
